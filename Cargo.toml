@@ -1,0 +1,22 @@
+[package]
+name = "stock_options"
+version = "0.1.0"
+authors = ["Vladyslav Betsun <vlad.betcun@gmail.com>"]
+description = "Common calculations on stock options"
+documentation = "https://docs.rs/stock_oprions"
+edition = "2021"
+readme = "README.md"
+categories = ["finance", "mathematics"]
+keywords = ["stock", "options", "calculator"]
+license = "MIT"
+repository = "https://github.com/vbetsun/stock-options-rs"
+rust-version = "1.56"
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[lib]
+name = "stock_options"
+path = "src/lib.rs"
+
+[dependencies]
